@@ -2,7 +2,7 @@
 
 ## 📌 1. O que é Machine Learning?
 
-Machine Learning é uma área da computação que permite que sistemas aprendam a partir de dados, sem que todas as regras precisem ser programadas manualmente.
+Na minha concepção, Machine Learning é uma área da computação, mais precisamente da ciência de dados, que permite que sistemas aprendam a partir de dados, sem que todas as regras precisem ser programadas manualmente.
 
 Em vez de dizer exatamente o que o computador deve fazer em cada situação, o sistema analisa exemplos, identifica padrões e, com base nisso, passa a tomar decisões ou fazer previsões.
 
@@ -26,5 +26,6 @@ Um exemplo comum de Machine Learning é a classificação de e-mails:
 - Identifica padrões nesses dados;
 - Utiliza esses padrões para classificar novos e-mails automaticamente;
 - Sua precisão melhora à medida que mais dados são analisados.
+
 
 Nesses casos, permitir que a máquina aprenda diretamente a partir dos dados torna a solução mais eficiente e escalável.
