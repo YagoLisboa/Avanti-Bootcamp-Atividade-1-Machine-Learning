@@ -50,6 +50,42 @@ _(É necessário salientar que os percentuais podem variar conforme o tamanho do
 
 ---
 
+## 🧠 Exemplo prático: classificador de e-mails (spam ou não spam)
+
+Imagine que nós temos 10.000 e-mails rotulados (spam ou não spam).
+
+###🔹 1. Conjunto de Treinamento (7.000 e-mails)
+
+Entregamos esses e-mails ao modelo e dizemos:
+“Aprenda o que costuma aparecer em spam e o que não aparece.”
+Palavras como “ganhe dinheiro rápido”, “promoção imperdível”
+Estrutura do texto, remetente, frequência de links etc.
+
+📌 Aqui o modelo aprende os padrões.
+
+###🔹 2. Conjunto de Validação (1.500 e-mails)
+
+Agora você testa o modelo enquanto ainda está ajustando.
+Você faz perguntas do tipo:
+Quantas camadas a rede neural deve ter?
+Qual regularização evita overfitting?
+Qual limiar de decisão funciona melhor?
+
+⚠️ Importante:
+O modelo não aprende com esses e-mails, só é avaliado.
+
+📌 Aqui você melhora o modelo.
+
+###🔹 3. Conjunto de Teste (1.500 e-mails)
+
+Depois que tudo está definido, você faz o teste final.
+Esses e-mails nunca foram vistos antes
+O resultado aqui representa o desempenho real em produção
+
+📌 Aqui você mede a generalização.
+
+---
+
 ## 🎯 Ideia-chave
 
 Cada conjunto tem um objetivo claro:
