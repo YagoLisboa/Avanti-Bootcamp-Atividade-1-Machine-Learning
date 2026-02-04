@@ -6,37 +6,37 @@ Em machine learning, nós costumamos dividir os dados em três conjuntos para tr
 
 ## 📘 Conjunto de Treinamento (Training Set)
 
-É o conjunto principal, usado para **ensinar o modelo**.
+É o conjunto principal, usamos para **ensinar o modelo**.
 
 - O modelo aprende os padrões dos dados aqui  
 - Os parâmetros (pesos, coeficientes etc.) são ajustados com base nesses dados  
 - Normalmente representa a maior parte dos dados (ex.: **60% a 80%**)  
 
-👉 **Em resumo:** é onde o modelo aprende.
+👉 **Em resumo:** é onde o modelo ou "a máquina" aprende.
 
 ---
 
 ## 🔧 Conjunto de Validação (Validation Set)
 
-Serve para **avaliar e ajustar o modelo durante o treinamento**.
+É o conjunto que serve para **avaliar e ajustar o modelo durante o treinamento**.
 
 - Usado para escolher hiperparâmetros (taxa de aprendizado, número de camadas, profundidade da árvore etc.)  
 - Ajuda a detectar **overfitting** (quando o modelo “decora” os dados de treino)  
 - O modelo **não aprende** com esses dados, apenas é avaliado  
 
-👉 **Em resumo:** é onde você ajusta o modelo.
+👉 **Em resumo:** é onde nós ajustamos o modelo.
 
 ---
 
 ## 🧪 Conjunto de Teste (Test Set)
 
-É usado **somente no final**, depois que tudo já está definido.
+É o conjunto usado **somente no final**, depois que tudo já está definido.
 
 - Avalia o desempenho final do modelo  
 - Simula dados nunca vistos pelo modelo  
 - Garante uma estimativa justa da capacidade de generalização  
 
-👉 **Em resumo:** é onde você comprova se o modelo realmente funciona.
+👉 **Em resumo:** é onde comprovamos se o modelo realmente funciona.
 
 ---
 
@@ -46,7 +46,7 @@ Serve para **avaliar e ajustar o modelo durante o treinamento**.
 - **15%** → Validação  
 - **15%** → Teste  
 
-_(Os percentuais podem variar conforme o tamanho do dataset.)_
+_(É necessário salientar que os percentuais podem variar conforme o tamanho do dataset.)_
 
 ---
 
