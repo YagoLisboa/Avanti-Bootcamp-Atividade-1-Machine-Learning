@@ -84,6 +84,8 @@ O resultado aqui representa o desempenho real em produção
 
 📌 Aqui você mede a generalização.
 
+(Veremos mais afundo no arquivo com esse exemplo implementado em código Python)
+
 ---
 
 ## 🎯 Ideia-chave
