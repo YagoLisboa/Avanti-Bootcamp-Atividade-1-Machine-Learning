@@ -1,7 +1,6 @@
 # 📚 Conjuntos de Dados em Machine Learning
 
-## 📌 2. Explique o conceito de conjunto de treinamento, conjunto de validação e
-conjunto de teste em machine learning.
+## 📌 2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
 
 Em machine learning, nós costumamos dividir os dados em três conjuntos para treinar e avaliar um modelo de forma correta e justa: treinamento, validação e teste. Cada um tem um papel bem específico como veremos adiante:
 
