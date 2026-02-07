@@ -1,6 +1,6 @@
 # 📊 Matriz de Confusão
 
-## 📌 O que é uma matriz de confusão?
+## 📌 O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
 
 A **matriz de confusão** é uma ferramenta fundamental para avaliar o desempenho de modelos
 de **classificação** em Machine Learning. Ela permite comparar os **valores reais**
